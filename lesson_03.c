@@ -11,7 +11,7 @@
 
 int main(){
 
-    // Mathematical operators
+    // Mathematical Operators
     float a = 1;
     float b = 2;
     float c = a + b;

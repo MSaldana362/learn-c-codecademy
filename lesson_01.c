@@ -11,10 +11,10 @@
 
 int main(){
 
-    // Using newline \n
+    // Using Newline \n
     printf("Hello World\n");
 
-    // Using tab \t
+    // Using Tab \t
     printf("First Step:\tDo stuff\n");
     printf("Second Step:\tDo things\n");
 }

@@ -11,13 +11,13 @@
 
 int main(){
 
-    // Data types
+    // Data Types
     int student_id = 149003256;
     float student_gpa = 3.666;
     double student_tuition = 420.69;
     char student_letter_grade = 'A';
 
-    // Using parameters with printf()
+    // Using Parameters with printf()
     printf("Student with ID %i has a GPA of %f.\n",student_id,student_gpa);
     printf("Student with ID %d is in debt $%f\n",student_id,student_tuition);
     printf("This student is an %c average student\n",student_letter_grade);
@@ -42,7 +42,7 @@ int main(){
     display_score = (int) test_score;
     printf("The original score was %f, but we display it as %i\n",test_score,display_score);
 
-    // More on casting
+    // More on Casting
     char new_letter_grade;
     int source_int = 97;
     new_letter_grade = (char) source_int;
