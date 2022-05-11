@@ -96,4 +96,14 @@ int main(){
 
 
     // Continuing
+    for (int i = 0; i < 10; i++) {
+        if (i%2 == 0) {
+            continue;
+        }
+        printf("%i is an odd number\n",i);
+    }
+
+    /* The continue keyword will immediately skip the rest of the
+    statements inside a loop body and continue to the next iteration */
+    
 }
